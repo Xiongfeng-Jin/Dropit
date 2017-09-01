@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3C10501C1E62E98900EEEFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10501B1E62E98900EEEFC0 /* AppDelegate.swift */; };
-		3C10501E1E62E98900EEEFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10501D1E62E98900EEEFC0 /* ViewController.swift */; };
 		3C1050211E62E98900EEEFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C10501F1E62E98900EEEFC0 /* Main.storyboard */; };
 		3C1050231E62E98900EEEFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1050221E62E98900EEEFC0 /* Assets.xcassets */; };
 		3C1050261E62E98900EEEFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1050241E62E98900EEEFC0 /* LaunchScreen.storyboard */; };
 		3C1050311E62E98900EEEFC0 /* dropitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1050301E62E98900EEEFC0 /* dropitTests.swift */; };
 		3C10503C1E62E98900EEEFC0 /* dropitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10503B1E62E98900EEEFC0 /* dropitUITests.swift */; };
+		3C10504C1E62E9DB00EEEFC0 /* DropItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10504B1E62E9DB00EEEFC0 /* DropItView.swift */; };
+		3C10504E1E62E9E800EEEFC0 /* DropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10504D1E62E9E800EEEFC0 /* DropViewController.swift */; };
+		3C1050501E62EAF100EEEFC0 /* UIKit Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10504F1E62EAF100EEEFC0 /* UIKit Extensions.swift */; };
+		3C1050521E62EECD00EEEFC0 /* FallingObjectBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1050511E62EECD00EEEFC0 /* FallingObjectBehavior.swift */; };
+		3C1050541E62F41C00EEEFC0 /* NamedBezierPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1050531E62F41C00EEEFC0 /* NamedBezierPathView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		3C1050181E62E98900EEEFC0 /* dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C10501B1E62E98900EEEFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C10501D1E62E98900EEEFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C1050201E62E98900EEEFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C1050221E62E98900EEEFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C1050251E62E98900EEEFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		3C1050371E62E98900EEEFC0 /* dropitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C10503B1E62E98900EEEFC0 /* dropitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropitUITests.swift; sourceTree = "<group>"; };
 		3C10503D1E62E98900EEEFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C10504B1E62E9DB00EEEFC0 /* DropItView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItView.swift; sourceTree = "<group>"; };
+		3C10504D1E62E9E800EEEFC0 /* DropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropViewController.swift; sourceTree = "<group>"; };
+		3C10504F1E62EAF100EEEFC0 /* UIKit Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit Extensions.swift"; sourceTree = "<group>"; };
+		3C1050511E62EECD00EEEFC0 /* FallingObjectBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallingObjectBehavior.swift; sourceTree = "<group>"; };
+		3C1050531E62F41C00EEEFC0 /* NamedBezierPathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedBezierPathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		3C10501A1E62E98900EEEFC0 /* dropit */ = {
 			isa = PBXGroup;
 			children = (
+				3C10504B1E62E9DB00EEEFC0 /* DropItView.swift */,
+				3C1050531E62F41C00EEEFC0 /* NamedBezierPathView.swift */,
+				3C1050511E62EECD00EEEFC0 /* FallingObjectBehavior.swift */,
+				3C10504F1E62EAF100EEEFC0 /* UIKit Extensions.swift */,
+				3C10504D1E62E9E800EEEFC0 /* DropViewController.swift */,
 				3C10501B1E62E98900EEEFC0 /* AppDelegate.swift */,
-				3C10501D1E62E98900EEEFC0 /* ViewController.swift */,
 				3C10501F1E62E98900EEEFC0 /* Main.storyboard */,
 				3C1050221E62E98900EEEFC0 /* Assets.xcassets */,
 				3C1050241E62E98900EEEFC0 /* LaunchScreen.storyboard */,
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					3C1050171E62E98900EEEFC0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4TWRC3YTKK;
 						ProvisioningStyle = Automatic;
 					};
 					3C10502B1E62E98900EEEFC0 = {
@@ -259,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C10501E1E62E98900EEEFC0 /* ViewController.swift in Sources */,
+				3C1050541E62F41C00EEEFC0 /* NamedBezierPathView.swift in Sources */,
+				3C10504C1E62E9DB00EEEFC0 /* DropItView.swift in Sources */,
 				3C10501C1E62E98900EEEFC0 /* AppDelegate.swift in Sources */,
+				3C1050521E62EECD00EEEFC0 /* FallingObjectBehavior.swift in Sources */,
+				3C10504E1E62E9E800EEEFC0 /* DropViewController.swift in Sources */,
+				3C1050501E62EAF100EEEFC0 /* UIKit Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TWRC3YTKK;
 				INFOPLIST_FILE = dropit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jin.dropit;
@@ -424,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TWRC3YTKK;
 				INFOPLIST_FILE = dropit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jin.dropit;
