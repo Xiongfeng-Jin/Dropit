@@ -1,4 +1,4 @@
-This is Stanford iOS 9 project 
+This is Stanford iOS 9 class project 
 
 click to drop squares and line them up to eliminate
 
